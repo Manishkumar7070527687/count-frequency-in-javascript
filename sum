@@ -1,0 +1,13 @@
+// Amazon question simple  
+
+function sum(a){
+    return function (b){
+        return a+b;
+    }
+}
+// let x=sum(23);
+// let res=x(27);
+// console.log(res);
+
+let y=sum(43)(45);
+console.log(y);
